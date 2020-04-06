@@ -279,6 +279,7 @@ configure(allprojects) { project ->
 		repositories {
 			mavenCentral()
 			maven { url "https://maven.aliyun.com/repository/central" }
+			maven { url "https://maven.aliyun.com/repository/spring-plugin" }
 		}
 	}
 	configurations.all {
